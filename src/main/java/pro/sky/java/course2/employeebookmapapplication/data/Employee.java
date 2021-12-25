@@ -9,9 +9,9 @@ public class Employee {
     private final int department;
     private final int salary;
 
-    public Employee(String name, String surname, String middleName, int department, int salary) {
-        this.name = name;
+    public Employee(String surname, String name, String middleName, int department, int salary) {
         this.surname = surname;
+        this.name = name;
         this.middleName = middleName;
         this.department = department;
         this.salary = salary;
